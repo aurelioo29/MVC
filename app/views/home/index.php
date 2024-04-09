@@ -1,11 +1,9 @@
 <div class="container mt-5 text-center">
   <div class="p-5 mb-4 bg-light rounded-3">
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 bg-success">
       <h1 class="display-5 fw-bold">Selamat datang di Home Page WEBSITE !!!</h1>
-      <p class="col-md-8 fs-4 ">
-        Using a series of utilities, you can create this jumbotron, just
-        like the one in previous versions of Bootstrap. Check out the
-        examples below for how you can remix and restyle it to your liking.
+      <p class="my-4 ">
+        Hellow nama saya, <?= $data['nama']; ?>
       </p>
       <button class="btn btn-primary btn-lg" type="button">
         Example button
