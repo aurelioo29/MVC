@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halaman <?= $data['judul']; ?></title>
   <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.css">
+  <style>
+    .navbar-nav .nav-link.active:hover {
+      color: blue;
+    }
+  </style>
 </head>
 
 <body>
@@ -19,8 +24,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
-          <a class="nav-link active text-primary" href="<?= BASEURL; ?>/about">About</a>
-          <a class="nav-link active text-primary" href="<?= BASEURL; ?>/mahasiswa">Mahasiswa</a>
+          <a class="nav-link active " href="<?= BASEURL; ?>/about">About</a>
+          <a class="nav-link active" href="<?= BASEURL; ?>/mahasiswa">Mahasiswa</a>
         </div>
       </div>
     </div>
